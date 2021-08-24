@@ -1,4 +1,7 @@
-N = input() 
+import sys
+
+
+N = sys.stdin.readline()
 
 modi_N = len(N)%3 
 
